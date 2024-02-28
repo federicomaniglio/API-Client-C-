@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_API: phony || CMakeFiles/API.dir
 build CMakeFiles/API.dir/main.cpp.obj: CXX_COMPILER__API_unscanned_Debug C$:/Users/feder/Desktop/Cplusplus/API/main.cpp || cmake_object_order_depends_target_API
   DEP_FILE = CMakeFiles\API.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++1z -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/feder/Desktop/Cplusplus/API/curl/include
+  INCLUDES = -IC:/Users/feder/Desktop/Cplusplus/API/curl/include -IC:/Users/feder/Desktop/Cplusplus/API/json-3.11.3/single_include
   OBJECT_DIR = CMakeFiles\API.dir
   OBJECT_FILE_DIR = CMakeFiles\API.dir
 
