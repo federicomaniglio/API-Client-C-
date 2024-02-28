@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_API: phony || CMakeFiles/API.dir
 build CMakeFiles/API.dir/main.cpp.obj: CXX_COMPILER__API_unscanned_Debug C$:/Users/feder/Desktop/Cplusplus/API/main.cpp || cmake_object_order_depends_target_API
   DEP_FILE = CMakeFiles\API.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++1z -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/feder/Desktop/Cplusplus/API/curl/include -IC:/Users/feder/Desktop/Cplusplus/API/curl/include/curl
+  INCLUDES = -IC:/Users/feder/Desktop/Cplusplus/API/curl/include
   OBJECT_DIR = CMakeFiles\API.dir
   OBJECT_FILE_DIR = CMakeFiles\API.dir
 
@@ -64,10 +64,10 @@ build CMakeFiles/API.dir/main.cpp.obj: CXX_COMPILER__API_unscanned_Debug C$:/Use
 #############################################
 # Link the executable API.exe
 
-build API.exe: CXX_EXECUTABLE_LINKER__API_Debug CMakeFiles/API.dir/main.cpp.obj | C$:/Users/feder/Desktop/Cplusplus/API/curl/lib/libcurl.a
+build API.exe: CXX_EXECUTABLE_LINKER__API_Debug CMakeFiles/API.dir/main.cpp.obj | C$:/Users/feder/Desktop/Cplusplus/API/curl/lib/libcurl.dll.a
   FLAGS = -g
-  LINK_LIBRARIES = C:/Users/feder/Desktop/Cplusplus/API/curl/lib/libcurl.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  LINK_PATH = -LC:/Users/feder/Desktop/Cplusplus/API/curl/include/curl   -LC:/Users/feder/Desktop/Cplusplus/API/curl/lib
+  LINK_LIBRARIES = C:/Users/feder/Desktop/Cplusplus/API/curl/lib/libcurl.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_PATH = -LC:/Users/feder/Desktop/Cplusplus/API/curl/lib
   OBJECT_DIR = CMakeFiles\API.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
